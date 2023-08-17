@@ -8,8 +8,7 @@ const Header = () => {
   const [ScrollValue, setScrollValue] = useState(false);
   const scrollHandler = () => {
     window.scrollY > 0 ? setScrollValue(false) : setScrollValue(true);
-    console.log(window.scrollY);
-    console.log(ScrollValue);
+   
   };
   useEffect(() => {
     window.addEventListener("scroll", scrollHandler);

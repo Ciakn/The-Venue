@@ -9,7 +9,7 @@ const CountDownShow = () => {
     minutes: "0",
     second: "0",
   });
-  console.log(time);
+
   const rendertime = (time, value) => {
     return (
       <div className="countdown_item">
@@ -28,7 +28,7 @@ const CountDownShow = () => {
       const minutes = Math.floor((time / 1000 / 60) % 60);
       const hours = Math.floor((time / (1000 * 60 * 60)) % 24);
       const days = Math.floor(time / (1000 * 60 * 60 * 24));
-      console.log(second);
+   
       setTime({ second, minutes, hours, days });
     }
   };
