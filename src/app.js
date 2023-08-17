@@ -1,6 +1,7 @@
 import Cards from "./Component/Caroussel/Cards";
 import Footer from "./Component/footer/Footer";
 import Header from "./Component/header/Header";
+import VenuInfo from "./Component/VenuInfo/VenuInfo";
 
 import "./styles.css";
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       <Header />
 
       <Cards />
+      <VenuInfo/>
 
       <div style={{ backgroundColor: "yellow", height: "800px" }}></div>
       <div style={{ backgroundColor: "blue", height: "800px" }}></div>
