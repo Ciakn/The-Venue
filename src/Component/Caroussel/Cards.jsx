@@ -1,3 +1,4 @@
+import CountDownShow from "../ShowCountDown/CountDownShow";
 import Carroussel from "./Carroussel";
 
 const Cards = () => {
@@ -5,8 +6,9 @@ const Cards = () => {
     <div className="featured_container">
       <Carroussel />
       <div className="artist_name">
-<div className="wrapper">Ariana Grande</div>
+        <div className="wrapper">Ariana Grande</div>
       </div>
+      <CountDownShow />
     </div>
   );
 };
